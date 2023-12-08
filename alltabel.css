@@ -1,0 +1,65 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ECF4D6;
+}
+
+body {
+    background-color: #265073;
+}
+.top {
+    background-color: #2D9596; /* Ganti warna latar belakang sesuai keinginan */
+    color: #265073;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.below{
+    text-align: center;
+}
+
+.container {
+    text-align: center; /* Center align the content */
+    margin-top: 30px; /* Add top margin to buttons */
+}
+
+.button-box {
+    display: inline-block;
+    background-color: rgba(45,149,150,0.15); /* Warna latar belakang dengan tingkat transparansi */
+    padding: 20px;
+    border-radius: 13px; /* Border radius untuk memberikan sudut yang melengkung */
+}
+
+.custom-btn {
+    width: 180px; /* Set the width of the button */
+    height: 40px;
+    margin: 5px;
+    font-size: 17px;
+    border-radius: 13px;
+    background-color: #ffff;
+}
+
+.custom-btn-primary {
+    background-color: #9AD0C2; /* Set the background color of the button */
+    color: #265073; /* Set the text color of the button */
+    border-color: #9AD0C2; /* Set the border color of the button */
+}
+
+.custom-btn:hover {
+    background-color: #2D9596; /* Ganti warna saat hover sesuai keinginan */
+}
+
+.btn-warning {
+    background-color: #FFAD84; /* Ubah warna latar belakang sesuai keinginan Anda */
+    color: #ffffff; /* Ubah warna teks sesuai keinginan Anda */
+    font-size: 20px; /* Ubah ukuran font sesuai keinginan Anda */
+    margin-top: 10px;
+    width: 500px;
+}
+
+.btn-warning:hover {
+    background-color: #FFAE50; /* Ganti warna saat hover sesuai keinginan */
+}
+

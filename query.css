@@ -1,0 +1,62 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ECF4D6;
+}
+
+body {
+    background-color: #265073;
+}
+.top {
+    text-align: center;
+    background-color: #2D9596;
+    color: #265073;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.below {
+    text-align: center;
+}
+
+.container {
+    text-align: center; /* Center align the content */
+    margin-top: 30px;
+}
+
+/* CSS untuk mengubah warna baris ganjil */
+.table tr:nth-child(odd) td {
+    background-color: #9AD0C2; /* Ganti dengan warna yang berbeda jika diperlukan */
+}
+
+/* CSS untuk mengubah warna baris genap */
+.table tr:nth-child(even) td {
+    background-color: #8abdaf; /* Ganti dengan warna yang berbeda jika diperlukan */
+}
+
+.dashboard-btn {
+    background-color: #4CAF50; /* Ganti dengan warna yang Anda inginkan */
+}
+
+.button {
+    margin: 20px; /* Add margin to each button */
+}
+
+.custom-btn {
+    width: 150px; /* Set the width of the button */
+    height: 30px; /* Set the height of the button */
+    margin: 30px;
+    border-radius: 13px;
+    background-color: #ffff;
+}
+
+.custom-btn-primary {
+    background-color: #9AD0C2; /* Set the background color of the button */
+    color: #265073; /* Set the text color of the button */
+    border-color: #9AD0C2; /* Set the border color of the button */
+}
+
+.custom-btn:hover {
+    background-color: #2D9596; /* Ganti warna saat hover sesuai keinginan */
+}
