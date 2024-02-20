@@ -9,6 +9,7 @@ CREATE TABLE address_tb (
     postal_code VARCHAR(6) NOT NULL, 
     is_headquarter CHAR(1) NOT NULL CHECK (is_headquarter IN ('Y', 'N'))
 );
+
 CREATE TABLE classcar_tb ( 
     class_car VARCHAR(10) NOT NULL, 
     car_desc VARCHAR(20) NOT NULL, 
